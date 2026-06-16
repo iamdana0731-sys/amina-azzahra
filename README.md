@@ -1,0 +1,324 @@
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Amina Bakery</title>
+
+<!-- Favicon -->
+<link rel="icon" type="image/jpeg"
+href="https://i.pinimg.com/736x/75/09/7b/75097bbe0a60fb72c960d2f03de37ec5.jpg">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;700&family=Pacifico&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#faf7ff;
+    color:#4a3b66;
+}
+
+/* HEADER */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:linear-gradient(135deg,#4a148c,#7b1fa2,#ce93d8);
+    box-shadow:0 5px 20px rgba(74,20,140,.18);
+}
+
+.logo{
+    font-family:'Pacifico',cursive;
+    font-size:40px;
+    color:white;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:25px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#f3e5f5;
+}
+
+/* PAGE */
+
+.page{
+    min-height:100vh;
+    padding:80px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-family:'Playfair Display',serif;
+    font-size:50px;
+    margin-bottom:40px;
+    background:linear-gradient(135deg,#4a148c,#7b1fa2,#ba68c8);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* HOME */
+
+.hero{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.hero-image{
+    flex:1;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:25px;
+    border:5px solid #e1bee7;
+    box-shadow:0 12px 30px rgba(123,31,162,.18);
+}
+
+.hero-content{
+    flex:1;
+}
+
+.hero-content h1{
+    font-family:'Playfair Display',serif;
+    font-size:64px;
+    margin-bottom:20px;
+    background:linear-gradient(135deg,#4a148c,#7b1fa2,#ce93d8);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero-content p{
+    text-align:justify;
+    line-height:2;
+    font-size:17px;
+    color:#5e548e;
+}
+
+.highlight{
+    color:#7b1fa2;
+    font-weight:600;
+}
+
+/* ORNAMEN */
+
+.ornament{
+    text-align:center;
+    font-size:24px;
+    color:#ab47bc;
+    letter-spacing:8px;
+    margin-bottom:30px;
+}
+
+/* ABOUT */
+
+.about-card{
+    background:white;
+    padding:45px;
+    border-radius:30px;
+    border-left:8px solid #7b1fa2;
+    box-shadow:0 8px 25px rgba(123,31,162,.08);
+}
+
+.about-card p{
+    text-align:justify;
+    line-height:2;
+}
+
+/* CONTACT */
+
+.contact-card{
+    max-width:850px;
+    margin:auto;
+    background:white;
+    padding:45px;
+    border-radius:30px;
+    box-shadow:0 8px 25px rgba(123,31,162,.08);
+}
+
+.form-group{
+    margin-bottom:22px;
+}
+
+label{
+    display:block;
+    margin-bottom:8px;
+    color:#7b1fa2;
+    font-weight:600;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:15px;
+    border:2px solid #d1c4e9;
+    border-radius:15px;
+    font-size:16px;
+    font-family:'Poppins',sans-serif;
+}
+
+textarea{
+    min-height:180px;
+    resize:vertical;
+}
+
+button{
+    background:linear-gradient(135deg,#4a148c,#7b1fa2,#ab47bc);
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:15px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    color:white;
+    padding:25px;
+    background:linear-gradient(135deg,#4a148c,#7b1fa2,#ce93d8);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">Amina Bakery</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<!-- HOME -->
+
+<section class="page" id="home">
+
+    <div class="ornament">🧁 ✦ 🍪 ✦ 🥐 ✦ 🍰</div>
+
+    <div class="hero">
+
+        <div class="hero-image">
+            <img src="https://i.pinimg.com/736x/ef/ff/0c/efff0cad44beab4d85c6b04ef2b615b9.jpg"
+            alt="Amina Bakery">
+        </div>
+
+        <div class="hero-content">
+
+            <h1>Amina Bakery</h1>
+
+            <p>
+                <span class="highlight">Amina Bakery</span> merupakan usaha di bidang pangan yang menghadirkan berbagai pilihan roti dan kue berkualitas dengan cita rasa yang lezat dan bahan-bahan pilihan. Produk yang tersedia meliputi roti manis, roti isi, roti sobek, donat, croissant, serta aneka kue kering seperti nastar, kastengel, putri salju, dan cookies modern yang cocok dinikmati dalam berbagai suasana. Setiap produk dibuat dengan perhatian terhadap kualitas, kebersihan, dan cita rasa sehingga mampu memberikan pengalaman terbaik bagi pelanggan. Dengan perpaduan resep tradisional dan sentuhan inovasi modern, Amina Bakery berkomitmen menghadirkan produk pangan yang tidak hanya lezat, tetapi juga mampu menjadi bagian dari momen spesial bersama keluarga, teman, maupun orang-orang terdekat.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="page" id="about">
+
+    <h2 class="section-title">About Us</h2>
+
+    <div class="about-card">
+
+        <p>
+            Amina Bakery adalah website profil perusahaan yang bergerak dalam produksi dan pemasaran berbagai jenis roti, kue, dan produk bakery berkualitas. Website ini dirancang untuk memberikan informasi mengenai produk unggulan, layanan, serta komitmen perusahaan dalam menghadirkan makanan yang lezat dan aman untuk dikonsumsi.
+        </p>
+
+        <br>
+
+        <p>
+            Dengan kombinasi warna gradasi ungu tua dan ungu muda, website ini menghadirkan kesan elegan, hangat, dan modern. Desain wireframe yang sederhana namun profesional memudahkan pengunjung dalam menavigasi halaman dan menemukan informasi yang dibutuhkan dengan nyaman.
+        </p>
+
+        <br>
+
+        <p>
+            Amina Bakery percaya bahwa setiap produk bakery memiliki cerita dan kebahagiaan tersendiri. Oleh karena itu, setiap roti dan kue dibuat dengan penuh dedikasi menggunakan bahan pilihan untuk memastikan kualitas, rasa, dan kepuasan pelanggan tetap menjadi prioritas utama.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="page" id="contact">
+
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-card">
+
+        <form>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email"
+                placeholder="Masukkan email Anda"
+                required>
+            </div>
+
+            <div class="form-group">
+                <label>Pesan</label>
+                <textarea
+                placeholder="Tulis pesan atau pertanyaan Anda..."
+                required></textarea>
+            </div>
+
+            <button type="submit">
+                Kirim Pesan
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Amina Bakery • Bread, Cookies & Bakery Products
+</footer>
+
+</body>
+</html>
